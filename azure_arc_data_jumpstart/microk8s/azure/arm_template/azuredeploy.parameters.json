@@ -3,34 +3,34 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "sshRSAPublicKey": {
-      "value": "<your RSA public key>"
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDV/ZrdJbnoI9TYTmf6Dc1oyptP+WTcyj99UHy7k7fuOP9VzetOWRzfz8trz1Q0V5k3u+zgHIdN9gvn6fqFYh4XWVs4y+Rh/rwD/q3hIne26mIL6Xn5EyCqvxBW3hdtlmtSZyw3b7Q1v+8WfoP/kHLaRFjr3p1Mm+M7QXlQwtA2K9fgLf7krlOocpqnuCPwpTMT2erTLvdAVKbwLv90abcE9VvusBkp2pngMqbtnqJ/qpijg2FqZkQ1SqVr0L4tiGBfAroNkAudzz4EI/yyV1zGcqwRKxH49OjKSMC5/wYSfLK3/90Lw8BfO018YR9lCDsmYLz4Jli3e0olPWlC9oQZNq+wJeecjEm4tOqA16kGs1Ld4F/si3F+eIj3T1jmuZQiqDDm/1nj9010EvFicHgj/x0kEK7BY89wFqsLs0MAlWHD3PuYHMEhM4+mMdlTGIltrOMzjc92rx5OgeJ1OdTRLJYQDFiaWXdum203vN4MbE1hAuLeDs61syt5LNulHa4B58Ds+exmADjQZVVBzjjynQSz8n3opUc7i+ifUChPZF+KuPBqKtODnkbOc+Myv6wPf5CkPeXjIPplLLWMoxdbbaElcoXy7JKfW93sLwNgMZ4x/JVLsJZ3q94l1PGCpDl7JPPnlsAz20KJ4a/AO0b13z226nIS9uUjWWfTwXTmQQ== prowess@prowessk8"
     },
     "spnClientId": {
-      "value": "<your service principal client id>"
+      "value": "971ddb67-6074-4b37-8e6f-886ebeb54100"
     },
     "spnClientSecret": {
-      "value": "<your service principal secret>"
+      "value": "dfd5ac11-99da-403a-b01a-f5ee634e754d"
     },
     "spnTenantId": {
-      "value": "<your spn tenant id>"
+      "value": "f697ff8e-085d-451e-a3f4-2104a8e4f3ce"
     },
     "windowsAdminUsername": {
-      "value": "arcdemo"
+      "value": "prowess"
     },
     "windowsAdminPassword": {
-      "value": "ArcPassword123!!"
+      "value": "TestPassword1"
     },
     "myIpAddress": {
-      "value": "<your IP address>"
+      "value": "172.17.20.0/24"
     },
     "logAnalyticsWorkspaceName": {
-      "value": "<your unique Log Analytics workspace name>"
+      "value": "Arc-Data-LA"
     },
     "deploySQLMI": {
-      "value": "<SQL Managed Instance deployment (true/false)>"
+      "value": false
     },
     "deployPostgreSQL": {
-      "value": "<PostgreSQL Hyperscale deployment (true/false)>"
+      "value": false
     },
     "templateBaseUrl": {
       "value": "https://raw.githubusercontent.com/microsoft/azure_arc/main/azure_arc_data_jumpstart/microk8s/azure/arm_template/"
